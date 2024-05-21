@@ -68,12 +68,12 @@ div.galeria ol{
 }
 div.galeria:hover{
     background-color: rgb(255, 255, 82);
-    color: white;
+    color: black;
 }
 div.galeria > h2{
     text-align: center;
     background-color: white;
-    color: darkred;
+    color: black;
 }
 
 .centro{
