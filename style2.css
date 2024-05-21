@@ -1,0 +1,42 @@
+@charset "UTP-8";
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color: hsl(248, 53%, 58%);
+}
+h1
+{
+    color: rgb(171, 52, 39);
+    text-align: center;
+}
+h2
+{
+    color: #0000ff;
+    text-align: center;
+}
+p
+{
+    text-align: justify;
+}
+#Unico{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, white, black, white);
+}
+.cor1{
+    color: lightblue;
+    background-color: tomato;
+}
+.cor2{
+    color: lightskyblue;
+    background-color: palevioletred;
+}
+.fonte1{
+    font-family: monospace;
+    font-size: 20px;
+}
+.fonte2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}

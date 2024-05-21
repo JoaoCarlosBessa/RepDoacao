@@ -1,0 +1,150 @@
+@charset "UTP-8";
+/* Color Theme Swatches in Hex */
+.My-Color-Blind-Safe-Theme-1-hex { color: #8DE101; }
+.My-Color-Blind-Safe-Theme-2-hex { color: #7C2BE1; }
+.My-Color-Blind-Safe-Theme-3-hex { color: #00E0AB; }
+.My-Color-Blind-Safe-Theme-4-hex { color: #E19C24; }
+.My-Color-Blind-Safe-Theme-5-hex { color: #36ABE0; }
+.My-Color-Blind-Safe-Theme-6-hex { color: #E14A25; }
+
+@font-face {
+    font-family: namorados;
+    src: url(Roboto/Roboto-Black.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: namorados;
+    box-sizing: border-box;
+    font-size: normal;
+    font-weight: normal;
+}
+header{
+    background-image: linear-gradient(to right, #36ABE0, #7C2BE1);
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    height: 80%;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(248, 53%, 58%);
+}
+h1
+{
+    color: white;
+    text-align: center;
+}
+div{
+    background-color: rgb(255, 255, 82);
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: left;
+    display:inline-block;
+}
+div.galeria{
+    background-color: rgb(255, 255, 82);
+    width: 300px;
+    height: 600px;
+    border: 1px solid black;
+    text-align: left;
+    display:inline-block;
+    color: black;
+}
+div.galeria img{
+    width: 90%;
+    height: auto;
+}
+div.galeria p{
+    text-align: center;
+}
+div.galeria ol{
+    font-weight: bold;
+}
+div.galeria:hover{
+    background-color: rgb(255, 255, 82);
+    color: white;
+}
+div.galeria > h2{
+    text-align: center;
+    background-color: white;
+    color: darkred;
+}
+
+.centro{
+    text-align: center;
+}
+.tituloOL{
+    font-weight: bold;
+    color: darkred;
+}
+img{
+    border: 1px solid black;
+}
+a::after{
+    content: '&#9756';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray; 
+}
+a::before{
+    content: '&#9758';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+.especialvoltar::after{
+    content: none;
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+.especialvoltar::before{
+    content: '☝';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+.especialacima::after{
+    content: none;
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+.especialacima::before{
+    content: '☝';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+.especialsemconteudo::after{
+    content: none;
+}
+.especialsemconteudo::before{
+    content: none;
+}
+.fundo{
+    background-image: url(BackDoacao.png);
+    background-repeat: repeat;
+    opacity: 0.5;
+}
+.container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 44.5%;
+}
+.responsividade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
